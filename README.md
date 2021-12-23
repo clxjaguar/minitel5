@@ -22,3 +22,44 @@ The second EPROM, in socket `MN8`, is connected to the character generation IC a
 ![Minitel 5 character generator EPROM content](doc/minitel5_character_generator_eprom_2x.png)
 
 [Link to the second dump file](dumps/minitel5_character_generator_eprom.bin)
+
+## Integrated circuits
+
+* `MN1` MHS 80C32 (MCU)
+* `MN2` MHS MBSR-2000F11-5 DECOPLAT-1
+* `MN3` NEC D27C256AD-15 (main EPROM)
+* `MN4` Sharp LH5164-10 (backup RAM)
+* `MN5` ROM/RAM "dual-dual row" (empty socket)
+* `MN6` OKI M6255 (dot matrix lcd controller)
+* `MN7` MHS MBSM-2000F05-5 VIDEOPLAT-1)
+* `MN8` NEC D27C256AD-15 (bitmap font EPROM)
+* `MN9` Philips FCB61C65LL-70T (SRAM)
+* `MN10` Philips FCB61C65LL-70T (SRAM)
+* `MN11` Motorola HC245A (3–state octal latch)
+* `MN12` Motorola HC245A (3–state octal latch)
+* `MN13` Motorola HC00A (quad 2-input NAND gate)
+* `MN14` Harris HC04 (hex inverter)
+* `MN15` Motorola HC245A (3–state octal latch)
+* `MN16` Motorola HC245A (3–state octal latch)
+* `MN18` Motorola HC4075 (triple 3-input OR gate)
+* `MN19` RCA(?) HC273 (octal D latch w/common clock and reset)
+* `MN201` ST TSB7513CP (single chip asynchronous FSK modem)
+* `MN202` Philips PC74HC4053T (triple 2-channel analog multiplexer/demultiplexer)
+* `MN203` TI(?) 27M4C (quad low power CMOS op-amp)
+* `MN204` ST EFG71891PD (DTMF generator w/serial input)
+* `MN205` Harris HC4052 (dual 4-channel analog multiplexer/demultiplexer)
+* `MA103` LM3578N (DIP-8 switching regulator)
+* `MA104` ADC0831CCN (single differential input 8-bit ADC w/serial I/O)
+* `MA201`, `MA202`, `MA203` Harris H11AG2 (phototransistor optocouplers)
+
+## More to come!
+
+I already have some schematics. But i'm already now fucking tired doing this! :x
+
+## Acknowledgements
+
+People I wishes to thanks:
+
+* **Ghyom** for giving me that ancient device
+* **Furrtek** for his help for recognising Harris old IC logo and the 27M4C op-amp
+* **Fréderic** from *CEM de Ronchin* for his help in desoldering `MN8`
