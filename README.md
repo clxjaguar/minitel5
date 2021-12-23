@@ -2,7 +2,7 @@
 
 The Minitel was a french dump terminal with embedded modem, at the golden age before Internet. Typically almost cubic and with CRT screen, they were almost free to have one at home (the model 1 was lend for free), so, it was a huge success and a lot of people (including me) had their first experience with telematic playing with that thing. The minitel 5 was a really more rare to encounter version. Flat, with LCD screen and battery, this "laptop-style" terminal could be used in phone booths and cars.
 
-I got one, but it is very strangely crashing at the second key press. And as there seems to be no documentation available, there is this git repository.
+I got one, but it [is very strangely crashing at the second key press](https://www.youtube.com/watch?v=lb3u2duY9KQ). And as there seems to be no documentation available, there is this git repository.
 
 ## EPROM Dumps
 
