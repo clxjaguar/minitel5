@@ -45,6 +45,7 @@ The second EPROM, in socket `MN8`, is connected to the character generation IC, 
 * `MN205` Harris HC4052 (dual 4-channel analog multiplexer/demultiplexer)
 * `MA103` LM3578N (DIP-8 switching regulator)
 * `MA104` ADC0831CCN (single differential input 8-bit ADC w/serial I/O)
+* `MA105` LM385M (1.2V micropower voltage reference)
 * `MA201`, `MA202`, `MA203` Harris H11AG2 (phototransistor optocouplers)
 
 ## More to come!
