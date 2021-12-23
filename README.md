@@ -1,18 +1,23 @@
 # Minitel 5
 
-The Minitel was a french dump terminal with embedded modem, at the golden age before Internet. Typically almost cubic and with CRT screen, they were almost free to have one at home (the model 1 was lend for free), so, it was a huge success and a lot of people (including me) had their first experience with telematic playing with that thing. The minitel 5 was a really more rare to encounter version. Flat, with LCD screen and battery, this "laptop-style" terminal could be used in phone booths and cars.
+The Minitel (or *Médium interactif par numérisation d'information téléphonique* -- Interactive medium for digitized information by telephone) was a french dumb terminal with an embedded modem, widely distributed in France.
+It had its Golden Age before the rise of Internet (content for it was commercially available from 1982 to 2012). They were mostly cubic with an included CRT screen and, more importantly, you could get one at home free of charge (the Model 1 was "lent" for free, as it was supposed to replace the telephone directory --the White Pages-- which were still in the form of a book at the time).
+It was a huge success and a lot of people (including me) had their first experience with telematic playing with that thing.
 
-I got one, but it [is very strangely crashing at the second key press](https://www.youtube.com/watch?v=lb3u2duY9KQ). And as there seems to be no documentation available, there is this git repository.
+The Minitel 5, a later version made during the early '90s, was not easy to find in the wild. It was flat, with an LCD screen and contained a battery. This "laptop-style" terminal could be used in phone booths and cars.
+
+I've got one, but [it is very strangely crashing at the second key press](https://www.youtube.com/watch?v=lb3u2duY9KQ).  
+As there seems to be no documentation yet available for it, I made this git repository.
 
 ## EPROM Dumps
 
 There are two 27C256 EPROM on the Minitel 5 board.
 
-The first is the main EPROM, in socket `MN3`, containing the all the firmware as the 80C32 microcontroller is ROMless. Beware, as my minitel 5 is crashing, this rom **may** be corrupted. If somebody can dump it's own device, it could be very interesting for me to compare.
+The first is the main EPROM, in socket `MN3`, containing all the firmware as the 80C32 microcontroller is ROMless. Beware, as my Minitel 5 is crashing, this ROM **may** be corrupted. If somebody can dump their own device, it could be very interesting for me to compare.
 
-[Link to the fist dump file](dumps/minitel5_main_eprom.bin)
+[Link to the first dump file](dumps/minitel5_main_eprom.bin)
 
-The second EPROM, in socket `MN8`, is connected to the character generation IC, and solely containing the bitmap font. 485 '16-bytes' zones from 0x6000 to 0x7E5F, with only first 10 bytes used in each block (the 6 extra are 0x00), one byte for each line of each character, where each bit is a pixel. Everything before address 0x6000 and from 0x7E50 to the end is filled with 0xFF.
+The second EPROM, in socket `MN8`, is connected to the character generation IC and contains solely the bitmap font. 485 '16-bytes' zones from 0x6000 to 0x7E5F, with only the first 10 bytes used in each block (the 6 extra are always 0x00), one byte for each line of each character, where each bit is a pixel. Everything before address 0x6000 and from 0x7E50 to the end is filled with 0xFF.
 
 ![Minitel 5 character generator EPROM content](doc/minitel5_character_generator_eprom_2x.png)
 
@@ -50,12 +55,13 @@ The second EPROM, in socket `MN8`, is connected to the character generation IC, 
 
 ## More to come!
 
-I already have some schematics. But i'm already now fucking tired doing this! :x
+I already have some schematics. But I'm already now fucking tired doing this! :x
 
 ## Acknowledgements
 
-People I wishes to thanks:
+People I wish to thank:
 
 * **Ghyom** for giving me that ancient device
 * **Furrtek** for his help for recognising Harris old IC logo and the 27M4C op-amp
 * **Fréderic** from *CEM de Ronchin* for his help in desoldering `MN8`
+
