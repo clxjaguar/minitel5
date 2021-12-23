@@ -1,13 +1,8 @@
 # Minitel 5
 
-The Minitel (or *Médium interactif par numérisation d'information téléphonique* -- Interactive medium for digitized information by telephone) was a french dumb terminal with an embedded modem, widely distributed in France.
-It had its Golden Age before the rise of Internet (content for it was commercially available from 1982 to 2012). They were mostly cubic with an included CRT screen and, more importantly, you could get one at home free of charge (the Model 1 was "lent" for free, as it was supposed to replace the telephone directory --the White Pages-- which were still in the form of a book at the time).
-It was a huge success and a lot of people (including me) had their first experience with telematic playing with that thing.
+The Minitel was a french dumb terminal with an embedded modem which had its Golden Age before the rise of Internet. Typically cubic, with an included CRT screen and, more importantly, you could have one at home for cheap (the model 1 was "lent" for free), so, it was a huge success and a lot of people (including me) had their first experience "being online" playing with that thing. The Minitel 5 was a version really more rare to encounter. Flat, with an LCD screen and contained a rechargeable battery, this "laptop-style" terminal could be used in phone booths and cars.
 
-The Minitel 5, a later version made during the early '90s, was not easy to find in the wild. It was flat, with an LCD screen and contained a battery. This "laptop-style" terminal could be used in phone booths and cars.
-
-I've got one, but [it is very strangely crashing at the second key press](https://www.youtube.com/watch?v=lb3u2duY9KQ).  
-As there seems to be no documentation yet available for it, I made this git repository.
+I've got one, but [it is very strangely crashing at the second key press](https://www.youtube.com/watch?v=lb3u2duY9KQ). As there seems to be no documentation yet available for it, I made this git repository.
 
 ## EPROM Dumps
 
@@ -55,7 +50,7 @@ The second EPROM, in socket `MN8`, is connected to the character generation IC a
 
 ## More to come!
 
-I already have some schematics. But I'm already now fucking tired doing this! :x
+I already have some schematics. But i'm already now fucking tired doing this! :x
 
 ## Acknowledgements
 
@@ -64,4 +59,4 @@ People I wish to thank:
 * **Ghyom** for giving me that ancient device
 * **Furrtek** for his help for recognising Harris old IC logo and the 27M4C op-amp
 * **Fréderic** from *CEM de Ronchin* for his help in desoldering `MN8`
-
+* **nikiroo** for his spellchecks.
