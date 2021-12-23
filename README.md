@@ -54,12 +54,13 @@ The second EPROM, in socket `MN8`, is connected to the character generation IC a
 
 ## More to come!
 
-I already have some schematics. But i'm already now fucking tired doing this! :x
+I already have some schematics. But I'm already now fucking tired doing this! :x
 
 ## Acknowledgements
 
-People I wishes to thanks:
+People I wish to thank:
 
 * **Ghyom** for giving me that ancient device
 * **Furrtek** for his help for recognising Harris old IC logo and the 27M4C op-amp
 * **Fréderic** from *CEM de Ronchin* for his help in desoldering `MN8`
+
