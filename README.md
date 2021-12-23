@@ -1,6 +1,6 @@
 # Minitel 5
 
-The Minitel was a french dumb terminal with an embedded modem which had its Golden Age before the rise of Internet. Typically cubic, with an included CRT screen and, more importantly, you could have one at home for cheap (the model 1 was "lent" for free), so, it was a huge success and a lot of people (including me) had their first experience "being online" playing with that thing. The Minitel 5 was a version really more rare to encounter. Flat, with an LCD screen and contained a rechargeable battery, this "laptop-style" terminal could be used in phone booths and cars.
+The Minitel was a french videotext terminal with an embedded modem which had its Golden Age before the rise of Internet. Typically cubic, with an included CRT screen and, more importantly, you could have one at home for cheap (the model 1 was "lent" for free), so, it was a huge success and a lot of people (including me) had their first experience "being online" playing with that thing. The Minitel 5 was a version really more rare to encounter. Flat, with an LCD screen and contained a rechargeable battery, this "laptop-style" terminal could be used in phone booths and cars.
 
 I've got one, but [it is very strangely crashing at the second key press](https://www.youtube.com/watch?v=lb3u2duY9KQ). As there seems to be no documentation yet available for it, I made this git repository.
 
@@ -43,9 +43,9 @@ The second EPROM, in socket `MN8`, is connected to the character generation IC a
 * `MN203` TI(?) 27M4C (quad low power CMOS op-amp)
 * `MN204` ST EFG71891PD (DTMF generator w/serial input)
 * `MN205` Harris HC4052 (dual 4-channel analog multiplexer/demultiplexer)
-* `MA103` LM3578N (DIP-8 switching regulator)
-* `MA104` ADC0831CCN (single differential input 8-bit ADC w/serial I/O)
-* `MA105` LM385M (1.2V micropower voltage reference)
+* `MA103` National LM3578N (DIP-8 switching regulator)
+* `MA104` National ADC0831CCN (single differential input 8-bit ADC w/serial I/O)
+* `MA105` National LM385M (1.2V micropower voltage reference)
 * `MA201`, `MA202`, `MA203` Harris H11AG2 (phototransistor optocouplers)
 
 ## More to come!
