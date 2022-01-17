@@ -43,6 +43,8 @@ The second EPROM, in socket `MN8`, is connected to the character generation IC a
 * `MN203` TI(?) 27M4C (quad low power CMOS op-amp)
 * `MN204` ST EFG71891PD (DTMF generator w/serial input)
 * `MN205` Harris HC4052 (dual 4-channel analog multiplexer/demultiplexer)
+* `MA101` Motorola MC78M08CT (8V positive linear regulator)
+* `MA102` TL431 (precision programmable reference)
 * `MA103` National LM3578N (DIP-8 switching regulator)
 * `MA104` National ADC0831CCN (single differential input 8-bit ADC w/serial I/O)
 * `MA105` National LM385M (1.2V micropower voltage reference)
