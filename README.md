@@ -8,15 +8,26 @@ I've got one, but [it is very strangely crashing at the second key press](https:
 
 There are two 27C256 EPROM on the Minitel 5 board.
 
-The first is the main EPROM, in socket `MN3`, containing all the firmware as the 80C32 microcontroller is ROMless. Beware, as my Minitel 5 is crashing, this ROM **may** be corrupted. If somebody can dump their own device, it could be very interesting for me to compare.
-
-[Link to the first dump file](dumps/minitel5_main_eprom.bin)
-
-The second EPROM, in socket `MN8`, is connected to the character generation IC and contains solely the bitmap font. 485 '16-bytes' zones from 0x6000 to 0x7E5F, with only the first 10 bytes used in each block (the 6 extra are always 0x00), one byte for each line of each character, where each bit is a pixel. Everything before address 0x6000 and from 0x7E50 to the end is filled with 0xFF.
+The `MN8` EPROM (directly soldered), is connected to the character generation IC and contains solely the bitmap font. 485 '16-bytes' zones from 0x6000 to 0x7E5F, with only the first 10 bytes used in each block (the 6 extra are always 0x00), one byte for each line of each character, where each bit is a pixel. Everything before address 0x6000 and from 0x7E50 to the end is filled with 0xFF.
 
 ![Minitel 5 character generator EPROM content](doc/minitel5_character_generator_eprom_2x.png)
 
-[Link to the second dump file](dumps/minitel5_character_generator_eprom.bin)
+[Link to the character generator EPROM dump file](dumps/minitel5_character_generator_eprom.bin)
+
+![Picture of GENE M5](dumps/minitel5_character_generator_eprom.jpg)
+
+The other one is the main EPROM, in socket `MN3`, containing all the firmware as the 80C32 microcontroller is ROMless. Among with the firmware version (HX0141AA1/P07), we could find the date 1990-04-23 in it. As my minitel 5 is crashing at keystrokes, I originally had doubts about it, but we could test my EPROM working once inserted in the Alexxr6's minitel 5 in place of his own `MN3` EPROM.
+
+[Link to the HX0141AA1/P07 firmware EPROM dump file](dumps/1990-04-23_HX0141AA1_P07.bin)
+
+![Picture of_HX0141AA1/P07](dumps/1990-04-23_HX0141AA1_P07.jpg)
+
+This is the dump of Alexxr6's minitel `MN3` EPROM. We could also find a date (1990-04-13) and the version number (HX0141BA1/P05).
+
+[Link to the HX0141BA1/P05 firmware EPROM dump file](dumps/1990-04-13_HX0141BA1_P05.bin)
+
+![Picture of_HX0141BA1/P05](dumps/1990-04-13_HX0141BA1_P05.jpg)
+
 
 ## Integrated circuits
 
@@ -61,4 +72,5 @@ People I wish to thank:
 * **Ghyom** for giving me that ancient device
 * **Furrtek** for his help for recognising Harris old IC logo and the 27M4C op-amp
 * **Fréderic** from *CEM de Ronchin* for his help in desoldering `MN8`
-* **nikiroo** for his spellchecks.
+* **nikiroo** for his spellchecks
+* **Alexxr6**, who own another minitel 5 we could play with (without enclosure the `MN2` reset fix)
