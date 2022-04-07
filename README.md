@@ -61,9 +61,20 @@ This is the dump of Alexxr6's minitel `MN3` EPROM. We could also find a date (19
 * `MA105` National LM385M (1.2V micropower voltage reference)
 * `MA201`, `MA202`, `MA203` Harris H11AG2 (phototransistor optocouplers)
 
+## PCB Reverse Engineering
+
+This was the crazy part of this project. It took months for redoing the schematics from the board.
+Also, this board is a AY4 version from Matra, with some factory mods (cut traces, manually added wires, also not mounted components).
+
+![Picture of_PCB TOP](pcb/minitel5-ay4-pcb-top.png)
+
+![Picture of PCB BOT](pcb/minitel5-ay4-pcb-bottom.png)
+
+[Link to the large GIMP file (> 100MB)](pcb/minitel5-ay4-pcb.xcf)
+
 ## More to come!
 
-I already have some schematics. But i'm already now fucking tired doing this! :x
+The schematics reversed from the board now be complete, but it still needs some cleanup and rearranging!
 
 ## Acknowledgements
 
