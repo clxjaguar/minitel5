@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC4075
+D Triple 3-input OR
+K TTL or3
+F https://www.nexperia.com/products/analog-logic-ics/control-logic/gates/or-gates/series/74HC4075-74HCT4075.html
+$ENDCMP
+#
+$CMP 74LS27
+D Triple 3-input NOR
+K TTL Nor3
+F http://www.ti.com/lit/gpn/sn74LS27
+$ENDCMP
+#
+#End Doc Library

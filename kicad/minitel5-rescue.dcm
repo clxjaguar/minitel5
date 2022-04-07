@@ -1,0 +1,37 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC4075
+D Triple 3-input OR
+K TTL or3
+F https://www.nexperia.com/products/analog-logic-ics/control-logic/gates/or-gates/series/74HC4075-74HCT4075.html
+$ENDCMP
+#
+$CMP ADC0831
+D Single Differential input AD Converter (serial output)
+K ADC CAN
+F http://www.ti.com/lit/ds/symlink/adc0831-n.pdf
+$ENDCMP
+#
+$CMP Mini-DIN-9
+D 9-pin Mini-DIN connector
+K Mini-DIN
+$ENDCMP
+#
+$CMP RA12W-K
+D General purpose signal relay, DPDT, non-latching
+K signal relay double pole double throw DPDT DC coil non latching
+$ENDCMP
+#
+$CMP V23026-A1001-B201
+D Signal Relay, 5 VDC, SPDT, 1 A, P1/V23026, Through Hole, DC Monostable
+K Single Pole Relay SPDT
+F https://www.farnell.com/datasheets/2007478.pdf
+$ENDCMP
+#
+$CMP VOGT_406_47
+D VOGT unknown transformer from Minitel 5
+K transformer
+F ~
+$ENDCMP
+#
+#End Doc Library
