@@ -85,3 +85,17 @@ People I wish to thank:
 * **Fréderic** from *CEM de Ronchin* for his help in desoldering `MN8`
 * **nikiroo** for his spellchecks
 * **Alexxr6**, who own another minitel 5 we could play with (without enclosure the `MN2` reset fix)
+
+## Bonus pictures: How to dump the EPROMS?
+
+### Fast solution: using a EEPROM programmer, if you have it.
+
+![Using a EEPROM programmer to dump MN8](doc/dump_solution1.jpg)
+
+(on this picture, a TL866II PLus, with the MN8 EPROM containing the font)
+
+### Longer solution: connect a microcontroller to every address and data line, and to a computer
+
+![Using a MCU to dump MN3](doc/dump_solution2.jpg)
+
+(because I didn't had the EEPROM programmer when i dumped MN3 EPROM)
