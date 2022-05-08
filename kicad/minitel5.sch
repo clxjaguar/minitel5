@@ -5,13 +5,13 @@ $Descr A0 46811 33110
 encoding utf-8
 Sheet 1 1
 Title "Minitel 5 PCB Reverse Engineered"
-Date "2021-11-04"
-Rev "07/04/22"
+Date "2022-05-08"
+Rev ""
 Comp "https://github.com/clxjaguar/minitel5"
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "602320227-HJ0544AA1P12"
+Comment4 "CN0408AA1-CC02"
 $EndDescr
 $Comp
 L Memory_EPROM:27C256 MN3

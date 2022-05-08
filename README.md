@@ -72,9 +72,29 @@ Also, this board is a AY4 version from Matra, with some factory mods (cut traces
 
 [Link to the large GIMP file (> 100MB)](pcb/minitel5-ay4-pcb.xcf)
 
-## More to come!
+## Reversed schematics
 
-The schematics reversed from the board now be complete, but it still needs some cleanup and rearranging!
+Pfiuh. This was hard work for sure!
+
+[Link to the Kicad files directory](kicad/)
+
+[Link to the schemarics PDF export file](kicad/output/minitel5.pdf)
+
+* MCU, reset circuitry, main EPROM, serial communications, EPROM, modem, extension cartridges (ROM or RAM), radiocom 2000 connector, sound output, keyboard pins header
+
+[![Schematics](kicad/output/main.png)](kicad/output/main.png)
+
+* Video generation circuits, outputs to the LED panel
+
+[![Schematics](kicad/output/video.png)](kicad/output/video.png)
+
+* Power supplies, main and backup batteries, trickle and fast charger, ADC (for checking battery level)
+
+[![Schematics](kicad/output/power.png)](kicad/output/power.png)
+
+* Phone line interface
+
+[![Schematics](kicad/output/phoneline.png)](kicad/output/phoneline.png)
 
 ## Acknowledgements
 
@@ -92,10 +112,10 @@ People I wish to thank:
 
 ![Using a EEPROM programmer to dump MN8](doc/dump_solution1.jpg)
 
-(on this picture, a TL866II PLus, with the MN8 EPROM containing the font)
+(on this picture, a TL866II PLus, with the `MN8` EPROM containing the font)
 
 ### Longer solution: connect a microcontroller to every address and data line, and to a computer
 
 ![Using a MCU to dump MN3](doc/dump_solution2.jpg)
 
-(because I didn't had the EEPROM programmer when i dumped MN3 EPROM)
+(because I didn't had the EEPROM programmer when I dumped `MN3` EPROM)
