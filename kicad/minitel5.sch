@@ -6644,7 +6644,7 @@ NoConn ~ 12550 18650
 Wire Wire Line
 	11950 17400 11550 17400
 Text Notes 11800 17250 2    50   ~ 0
-to MN6
+from DECOPLAT
 Wire Wire Line
 	11950 17500 11550 17500
 Text Label 11550 17400 0    50   ~ 0
@@ -10144,9 +10144,9 @@ $EndComp
 Wire Wire Line
 	25850 5800 25450 5800
 Text Label 25450 5800 0    50   ~ 0
-NM1-9
+MN1-9
 Text Label 15700 16450 0    50   ~ 0
-NM1-9
+MN1-9
 $Comp
 L Device:R R150
 U 1 1 A5B18986
@@ -10774,15 +10774,15 @@ Wire Wire Line
 Wire Wire Line
 	25850 5600 25450 5600
 Text Label 25450 5600 0    50   ~ 0
-NM1-7
+MN1-7
 Text Label 25750 8850 0    50   ~ 0
-NM1-7
+MN1-7
 Wire Wire Line
 	26650 4900 26650 4600
 Text Label 26650 4600 3    50   ~ 0
-NM1-5
+MN1-5
 Text Label 37050 15650 0    50   ~ 0
-NM1-5
+MN1-5
 Wire Wire Line
 	37050 15650 37450 15650
 $Comp
