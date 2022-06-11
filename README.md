@@ -106,6 +106,31 @@ Pfiuh. This was hard work for sure!
 
 [![Schematics](kicad/output/phoneline.png)](kicad/output/phoneline.png)
 
+## J202 connector (for radio phone or acoustic coupler)
+
+I did play a little bit with that connector, a scope, and a low frequency generator.
+
+| Pin | Direction | Signal |
+| --- | --------- | ------ |
+| 1 | Output | Modem audio signal output. Measured at 2Vpp/733mVrms (emitting the 390Hz carrier) - or 1.3Vpp/460mVrms (1300Hz carrier, modem reversed)
+| 2 | Input	| Modem audio signal input. 0.5Vpp seems fine?
+| 3 | Ground
+| 4 | Input	| Connected to ground as long as the phone line is open: needed to use Conn/Fin key. Can also enable the radiocom mode. Wake the minitel from deep sleep. Beware, 8V may be present from a 22k resistor on this pin.
+| 5 | Input	| Connect to ground to activate the "radiocom mode". Disable dialling DTMF from the minitel.
+| 6 | Output | ~5V output present when modem is enabled (and even if Pin 5 is not grounded). Current limited to 40mA approx (measured while shorted to ground). No pulse if Conn/Fin is pushed and modem not activated yet.
+| 7 | Ground
+| 8 | Output | Open-collector activated when the minitel 5 wants to take the phone line on this connector and if Pin 5 is grounded. Pulsed active if Conn/Fin is pushed when modem not activated.
+| 9 | Input | Power input to the minitel (typically 12V), exactly in the same way when using the DC-jack input.
+
+
+|  Pin 4   |  Pin 5   |  Behaviour  |
+| -------- | -------- | ----------- |
+| Floating | Floating | By default, the minitel 5 will use the "normal" POTS phone line connector. |
+| Floating | Grounded | Use the J202 connector, can go into 'N' mode, but do not accept Conn/Fin to make a connection. If pin 4 was grounded and in C or N mode, hangs-up immediatly (going to 'F' mode). |
+| Grounded | Grounded | The minitel 5 can go into 'N' and 'C' mode. Doesn't stop the connection nor sending carrier if stopping receiving carrier. |
+| Grounded | Floating | Use the J202 connector, can go into 'N' or 'C' mode. The minitel 5 detects when the received carrier stops and hangs-up (going into 'N' mode) |
+
+
 ## Acknowledgements
 
 People I wish to thank:
