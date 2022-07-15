@@ -4,6 +4,8 @@ The Minitel was a french videotext terminal with an embedded modem which had its
 
 I've got one, but [it is very strangely crashing at the second key press](https://www.youtube.com/watch?v=lb3u2duY9KQ). As there seems to be no documentation yet available for it, I made this git repository.
 
+Later, `MN4` was found faulty. Not _just_ a battery-powered backup SRAM are you, heh?
+
 ## EPROM Dumps
 
 There are two 27C256 EPROM on the Minitel 5 board.
@@ -106,7 +108,7 @@ Pfiuh. This was hard work for sure!
 
 [![Schematics](kicad/output/phoneline.png)](kicad/output/phoneline.png)
 
-## J202 connector (for radio phone or acoustic coupler)
+## J202 connector (for connecting radio-phone "Radiocom 2000" or acoustic coupler)
 
 I did play a little bit with that connector, a scope, and a low frequency generator.
 
@@ -129,7 +131,6 @@ I did play a little bit with that connector, a scope, and a low frequency genera
 | Floating | Grounded | Use the J202 connector, can go into 'N' mode, but do not accept Conn/Fin to make a connection. If pin 4 was grounded and in C or N mode, hangs-up immediatly (going to 'F' mode). |
 | Grounded | Grounded | The minitel 5 can go into 'N' and 'C' mode. Doesn't stop the connection nor sending carrier if stopping receiving carrier. |
 | Grounded | Floating | Use the J202 connector, can go into 'N' or 'C' mode. The minitel 5 detects when the received carrier stops and hangs-up (going into 'N' mode) |
-
 
 ## Acknowledgements
 
