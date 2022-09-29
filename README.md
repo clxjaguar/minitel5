@@ -34,6 +34,15 @@ There are two 27C256 EPROM on the Minitel 5 board.
 
 ![Picture of_HX0141BA1/P05](dumps/1990-04-13_HX0141BA1_P05.jpg)
 
+
+* And this is the `MN3` for another Minitel 5 from Alexxr6, which was received in a very bad condition due to water damage. This one had it's VIDEOPLAT and DECOPLAT removed. More on this later. However, the date found in the dump is 1990-07-11, version number HX0141BA2.
+
+[Link to the HX0141BA2 firmware EPROM dump file](dumps/1990-07-11_HX0141BA2.bin)
+[(disassembly)](dumps/1990-07-11_HX0141BA2.dis)
+
+![Picture of_1990-07-11_HX0141BA2](dumps/1990-07-11_HX0141BA2.jpg)
+
+
 ## How to disassemble EPROM dumps?
 
 	sudo apt-get install dis51 srecord
