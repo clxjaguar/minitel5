@@ -137,7 +137,7 @@ I did play a little bit with that connector, a scope, and a low frequency genera
 |  Pin 4   |  Pin 5   |  Behaviour  |
 | -------- | -------- | ----------- |
 | Floating | Floating | By default, the minitel 5 will use the "normal" POTS phone line connector. |
-| Floating | Grounded | Use the J202 connector, can go into 'N' mode, but do not accept Conn/Fin to make a connection. If pin 4 was grounded and in C or N mode, hangs-up immediatly (going to 'F' mode). |
+| Floating | Grounded | Use the J202 connector, can go into 'N' mode, but do not accept Conn/Fin to make a connection. If pin 4 was grounded and in C or N mode, hangs-up immediately (going to 'F' mode). |
 | Grounded | Grounded | The minitel 5 can go into 'N' and 'C' mode. Doesn't stop the connection nor sending carrier if stopping receiving carrier. |
 | Grounded | Floating | Use the J202 connector, can go into 'N' or 'C' mode. The minitel 5 detects when the received carrier stops and hangs-up (going into 'N' mode) |
 
