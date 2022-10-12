@@ -35,7 +35,7 @@ There are two 27C256 EPROM on the Minitel 5 board.
 ![Picture of_HX0141BA1/P05](dumps/1990-04-13_HX0141BA1_P05.jpg)
 
 
-* And this is the `MN3` for another Minitel 5 from Alexxr6, which was received in a very bad condition due to water damage. This one had it's VIDEOPLAT and DECOPLAT removed. More on this later. However, the date found in the dump is 1990-07-11, version number HX0141BA2.
+* And this is the `MN3` for another Minitel 5 from Alexxr6, which was received in a very bad condition due to water damage. This one had it's VIDEOPLAT and DECOPLAT removed (more about these ICs further down). However, the date found in the dump is 1990-07-11, version number HX0141BA2.
 
 [Link to the HX0141BA2 firmware EPROM dump file](dumps/1990-07-11_HX0141BA2.bin)
 [(disassembly)](dumps/1990-07-11_HX0141BA2.dis)
@@ -140,6 +140,18 @@ I did play a little bit with that connector, a scope, and a low frequency genera
 | Floating | Grounded | Use the J202 connector, can go into 'N' mode, but do not accept Conn/Fin to make a connection. If pin 4 was grounded and in C or N mode, hangs-up immediately (going to 'F' mode). |
 | Grounded | Grounded | The minitel 5 can go into 'N' and 'C' mode. Doesn't stop the connection nor sending carrier if stopping receiving carrier. |
 | Grounded | Floating | Use the J202 connector, can go into 'N' or 'C' mode. The minitel 5 detects when the received carrier stops and hangs-up (going into 'N' mode) |
+
+## Decapped Custom-made Integrated Circuits
+
+Alexxr6 removed `MN2` "DECOPLAT" and `MN7` "VIDEOPLAT" chips from a board he received already ruined by water and electrolysis, and sent these ICs to Furrtek for decapping and photography under microscope.
+
+[![Decapped MHS MBSR-2000F11-5 DECOPLAT-1](doc/mhs_mbsr-2000f11-5_mz.thumb.jpg)](https://siliconpr0n.org/map/mhs/mbsr-2000f11-5/mz/)
+
+[MHS MBSR-2000F11-5 DECOPLAT-1 on siliconpr0n.org](https://siliconpr0n.org/map/mhs/mbsr-2000f11-5/mz/)
+
+[![Decapped MHS MBSM-2000F05-5 VIDEOPLAT-1](doc/mhs_mbsm-2000f05-5_mz.thumb.jpg)](https://siliconpr0n.org/map/mhs/mbsm-2000f05-5/mz/)
+
+[MHS MBSM-2000F05-5 VIDEOPLAT-1 on siliconpr0n.org](https://siliconpr0n.org/map/mhs/mbsm-2000f05-5/mz/)
 
 ## Acknowledgements
 
