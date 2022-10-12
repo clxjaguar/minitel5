@@ -146,10 +146,11 @@ I did play a little bit with that connector, a scope, and a low frequency genera
 People I wish to thank:
 
 * **Ghyom** for giving me that ancient device
-* **Furrtek** for his help for recognising Harris old IC logo and the 27M4C op-amp
+* **Furrtek** for his help for recognising Harris old IC logo and the 27M4C op-amp, also decapping and microscopy
 * **Fréderic** from *CEM de Ronchin* for his help in desoldering `MN8`
 * **nikiroo** for his spellchecks
 * **Alexxr6**, who own another minitel 5 we could play with (without the `MN2` reset fix, and also without plastic case)
+* **Bengrs** for having [PR](https://github.com/clxjaguar/minitel5/pull/2) EPROMs dumps from a working Minitel 5 AB1
 
 ## Bonus pictures: How to dump the EPROMS?
 
