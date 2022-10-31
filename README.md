@@ -177,3 +177,9 @@ People I wish to thank:
 ![Using a MCU to dump MN3](doc/dump_solution2.jpg)
 
 (because I didn't had the EEPROM programmer when I dumped `MN3` EPROM)
+
+## Bonus pictures 2: low profile sockets
+
+For dumping `MN8` EPROM, it has to be desoldered first because that EPROM was not on socket, and as the keyboard is on top the PCB, it is not possible to use a regular DIL socket because of the additional height. As the EPROM pads holes in in minitel 5 PCB permits it, it is possible to use a "Press-Fit Receptacle" in case I want to play with the fonts later. I used the 5360-0-15-15-21-27-10-0 from Mill-Max (Mouser Ref: 575-5360015152127100).
+
+![Puting back the MN8 EPROM after having soldered low profile sockets in the PCB holes](doc/low_profile_sockets.jpg)
