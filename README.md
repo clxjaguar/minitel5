@@ -141,6 +141,10 @@ I did play a little bit with that connector, a scope, and a low frequency genera
 | Grounded | Grounded | The minitel 5 can go into 'N' and 'C' mode. Doesn't stop the connection nor sending carrier if stopping receiving carrier. |
 | Grounded | Floating | Use the J202 connector, can go into 'N' or 'C' mode. The minitel 5 detects when the received carrier stops and hangs-up (going into 'N' mode) |
 
+![Simple cable schematics](doc/smartphone_to_minitel5_radiocom2000interface_cable.png)
+
+For using a smartphone as a modem, this is a simple schematic for a cable for connecting it to the minitel 5 via its J202 connector. Use SIP call as regular cellular codex will screw up the v23 transmission! [(png)](doc/smartphone_to_minitel5_radiocom2000interface.png) [(sch)](doc/smartphone_to_minitel5_radiocom2000interface.sch)
+
 ## Decapped Custom-made Integrated Circuits
 
 Alexxr6 removed `MN2` "DECOPLAT" and `MN7` "VIDEOPLAT" chips from a board he received already ruined by water and electrolysis, and sent these ICs to Furrtek for decapping and photography under microscope.
