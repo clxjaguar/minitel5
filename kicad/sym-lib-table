@@ -1,3 +1,5 @@
 (sym_lib_table
+  (lib (name custom-components)(type Legacy)(uri ${KIPRJMOD}/custom-components.lib)(options "")(descr ""))
   (lib (name minitel5-rescue)(type Legacy)(uri ${KIPRJMOD}/minitel5-rescue.lib)(options "")(descr ""))
+  (lib (name minitel5-cache)(type Legacy)(uri ${KIPRJMOD}/minitel5-cache.lib)(options "")(descr ""))
 )

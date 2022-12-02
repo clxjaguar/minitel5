@@ -70,7 +70,7 @@ Wire Wire Line
 	3350 3200 2400 3200
 Connection ~ 3350 3200
 Text Notes 4500 3000 0    50   ~ 0
-Measured across the microphone of\nthe headset I'm modifying around 10 \nto ~~20mV peak to peak depending \non how loud I speak, on 0.145mVdc
+Measured across the microphone of\nthe headset I'm modifying around 10 \nto ~~20mV peak to peak depending \non how loud I speak, on 0.145Vdc
 Text Label 2400 3200 0    50   ~ 0
 COMMON
 Text Label 2400 3400 0    50   ~ 0
