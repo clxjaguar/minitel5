@@ -105,7 +105,7 @@ Pfiuh. This was hard work for sure!
 
 [![Schematics](kicad/output/main.png)](kicad/output/main.png)
 
-* Video generation circuits, outputs to the LED panel
+* Video generation circuits, outputs to the LCD panel
 
 [![Schematics](kicad/output/video.png)](kicad/output/video.png)
 
