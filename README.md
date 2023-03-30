@@ -149,13 +149,13 @@ For using a smartphone as a modem, this is a simple schematic for a cable for co
 
 Alexxr6 removed `MN2` "DECOPLAT" and `MN7` "VIDEOPLAT" chips from a board he received already ruined by water and electrolysis, and sent these ICs to Furrtek for decapping and photography under microscope.
 
-[![Decapped MHS MBSR-2000F11-5 DECOPLAT-1](doc/mhs_mbsr-2000f11-5_mz.thumb.jpg)](https://siliconpr0n.org/map/mhs/mbsr-2000f11-5/mz/)
+[![Decapped MHS MBSR-2000F11-5 DECOPLAT-1](doc/mhs_mbsr-2000f11-5_mz.thumb.jpg)](https://siliconpr0n.org/map/mhs/mbsr-2000f11-5/furrtek_mz/)
 
-[MHS MBSR-2000F11-5 DECOPLAT-1 on siliconpr0n.org](https://siliconpr0n.org/map/mhs/mbsr-2000f11-5/mz/)
+[MHS MBSR-2000F11-5 DECOPLAT-1 on siliconpr0n.org](https://siliconpr0n.org/map/mhs/mbsr-2000f11-5/furrtek_mz/)
 
-[![Decapped MHS MBSM-2000F05-5 VIDEOPLAT-1](doc/mhs_mbsm-2000f05-5_mz.thumb.jpg)](https://siliconpr0n.org/map/mhs/mbsm-2000f05-5/mz/)
+[![Decapped MHS MBSM-2000F05-5 VIDEOPLAT-1](doc/mhs_mbsm-2000f05-5_mz.thumb.jpg)](https://siliconpr0n.org/map/mhs/mbsm-2000f05-5/furrtek_mz/)
 
-[MHS MBSM-2000F05-5 VIDEOPLAT-1 on siliconpr0n.org](https://siliconpr0n.org/map/mhs/mbsm-2000f05-5/mz/)
+[MHS MBSM-2000F05-5 VIDEOPLAT-1 on siliconpr0n.org](https://siliconpr0n.org/map/mhs/mbsm-2000f05-5/furrtek_mz/)
 
 ## Acknowledgements
 
