@@ -187,3 +187,9 @@ People I wish to thank:
 For dumping `MN8` EPROM, it has to be desoldered first because that EPROM was not on socket, and as the keyboard is on top the PCB, it is not possible to use a regular DIL socket because of the additional height. As the EPROM pads holes in in minitel 5 PCB permits it, it is possible to use a "Press-Fit Receptacle" in case I want to play with the fonts later. I used the 5360-0-15-15-21-27-10-0 from Mill-Max (Mouser Ref: 575-5360015152127100).
 
 ![Puting back the MN8 EPROM after having soldered low profile sockets in the PCB holes](doc/low_profile_sockets.jpg)
+
+## Bonus 3: internal batteries power to the DIN connector
+
+If you look closely at the schematics, you can see that the J1 DIN-5 "Prise Péri-informatique" connector is only delivering power when the Minitel 5 is receiving itself 12V power, either by J202 pin 9 or by the J101 DC jack... but not when on its internal batteries power. If we want to use a ESP32 on the Minitel 5, this limit the "portable" aspect of the device. So I used a Schottky diode to route the battery positive lead to switch (pin 6), and also a 1000µF low ESR capacitor between J1 (pin 5) and ground, because the ESP32 can consume a lot of current sometimes, and we do not have a lot of voltage margin, even if the ESP board's regulator is a LDO. Beware of the battery compartment physical volume. Do not plan to use something which need the standard 8.5 volts on the DIN connector like a Minitel printer.
+
+![Modification to power an ESP32 board when the Minitel 5 is powered by its internal batteries](doc/mod_battery_power_to_din_connector.jpg)
